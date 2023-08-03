@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(44, 186, 186);
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 5px;
+    box-shadow: 0 2px 20px rgb(10, 10, 10);
+}
+.card-container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.card{
+    height: 250px;
+padding: 20px 20px 10px 10px ;
+background-color: beige;
+    box-shadow: 0 2px 20px rgb(10, 10, 10);
+}
+h1{
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card h3{
+    margin-top: 10px;
+}
+.card p{
+    margin-top: 5px;
+    color: rgb(57, 57, 104);
+}
